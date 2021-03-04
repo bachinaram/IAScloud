@@ -1,1 +1,311 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T15:50:06.173Z" agent="5.0 (Macintosh)" version="14.4.4" etag="XckVM9cVGj7MSMKd9i9m" type="github"><diagram id="CI0_DttL_RpLvTSUc-ib">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-04T17:37:22.667Z" agent="5.0 (Macintosh)" etag="TyoQe7938hp_OLZy8woa" version="14.4.4" type="github">
+  <diagram id="CI0_DttL_RpLvTSUc-ib" name="Page-1">
+    <mxGraphModel dx="1186" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tp6r7313xP_De6biVUdd-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="380" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-8" value="&lt;div&gt;Database to store&lt;/div&gt;&lt;div&gt;registered sensor date for reporting.&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="405" y="520" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-9" value="Deployer and configurator" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="350" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-15" value="App developer creates&lt;br&gt;APIs,applications" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-17" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.repository_server;" vertex="1" parent="1">
+          <mxGeometry x="387" y="114" width="76" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-18" value="API Repository/Applications" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="190" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-19" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-15" target="Tp6r7313xP_De6biVUdd-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="320" as="sourcePoint" />
+            <mxPoint x="380" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-20" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-15" target="Tp6r7313xP_De6biVUdd-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="320" as="sourcePoint" />
+            <mxPoint x="380" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-21" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Load_Balancer_feature.svg;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="680" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="520" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-24" value="node1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="117.5" y="540" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-25" value="node2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="187.5" y="540" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-26" value="node3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="540" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-30" value="Every node is a server capability&lt;br&gt; of serving the deployed apps" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="640" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="770" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-45" value="" style="verticalLabelPosition=bottom;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.sensor;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="785" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-46" value="Sensor2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="815" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-47" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sensor;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="785" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-48" value="Sensor3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="815" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-49" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="785" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-50" value="Sensor1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="815" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-51" value="Customer instance1&lt;br&gt;&lt;div&gt;Smart hospital &lt;br&gt;&lt;/div&gt;&lt;div&gt;sensors try to &lt;br&gt;&lt;/div&gt;&lt;div&gt;contact &lt;/div&gt;hospital app in node" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="72.5" y="850" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-52" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.54;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-21" target="Tp6r7313xP_De6biVUdd-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="720" as="sourcePoint" />
+            <mxPoint x="340" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="118" y="734" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-53" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.52;exitY=1.06;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.538;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-21" target="Tp6r7313xP_De6biVUdd-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="720" as="sourcePoint" />
+            <mxPoint x="340" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-54" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=1.06;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-21" target="Tp6r7313xP_De6biVUdd-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="720" as="sourcePoint" />
+            <mxPoint x="340" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="228" y="733" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-55" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-24" target="Tp6r7313xP_De6biVUdd-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="720" as="sourcePoint" />
+            <mxPoint x="340" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="148" y="680" />
+              <mxPoint x="173" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-56" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.45;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-21" target="Tp6r7313xP_De6biVUdd-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="720" as="sourcePoint" />
+            <mxPoint x="340" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="218" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-57" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.47;exitY=-0.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-21" target="Tp6r7313xP_De6biVUdd-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="720" as="sourcePoint" />
+            <mxPoint x="340" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="288" y="679" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-58" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.465;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-24" target="Tp6r7313xP_De6biVUdd-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="610" as="sourcePoint" />
+            <mxPoint x="340" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="148" y="490" />
+              <mxPoint x="238" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-59" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-25" target="Tp6r7313xP_De6biVUdd-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="610" as="sourcePoint" />
+            <mxPoint x="240" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="490" />
+              <mxPoint x="245" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-60" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-26" target="Tp6r7313xP_De6biVUdd-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="610" as="sourcePoint" />
+            <mxPoint x="340" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="288" y="490" />
+              <mxPoint x="245" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="770" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-62" value="" style="verticalLabelPosition=bottom;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.sensor;" vertex="1" parent="1">
+          <mxGeometry x="422.5" y="785" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-63" value="Sensor2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="815" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-64" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sensor;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="785" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-65" value="Sensor3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="472.5" y="815" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-66" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="785" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-67" value="Sensor1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="815" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-68" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1.03;exitY=0.54;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="Tp6r7313xP_De6biVUdd-66" source="Tp6r7313xP_De6biVUdd-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="197" y="710" as="sourcePoint" />
+            <mxPoint x="610" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="388" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-69" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.538;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Tp6r7313xP_De6biVUdd-62" source="Tp6r7313xP_De6biVUdd-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="198" y="701" as="sourcePoint" />
+            <mxPoint x="610" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="444" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-70" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" target="Tp6r7313xP_De6biVUdd-64" source="Tp6r7313xP_De6biVUdd-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="442.5" y="733" as="sourcePoint" />
+            <mxPoint x="610" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="498" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-71" value="Customer instance2&lt;br&gt;&lt;div&gt;Smart Campus &lt;br&gt;&lt;/div&gt;&lt;div&gt;sensors&lt;br&gt;&lt;/div&gt;&lt;div&gt;try to contact &lt;br&gt;&lt;/div&gt;&lt;div&gt;campus app in node&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="422.5" y="845" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-72" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Tp6r7313xP_De6biVUdd-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="580" as="sourcePoint" />
+            <mxPoint x="300" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-75" value="End user&lt;br&gt;&lt;div&gt;Doctor connect to app &lt;br&gt;&lt;/div&gt;&lt;div&gt;to see patient data&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="930" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-76" value="&lt;div&gt;End user&lt;/div&gt;&lt;div&gt;university staff&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="930" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-79" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=-0.05;entryY=0.58;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-75" target="Tp6r7313xP_De6biVUdd-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="960" as="sourcePoint" />
+            <mxPoint x="300" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="960" />
+              <mxPoint x="40" y="960" />
+              <mxPoint x="40" y="709" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-82" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="850" as="sourcePoint" />
+            <mxPoint x="200" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="960" />
+              <mxPoint x="630" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-83" value="http req with app url" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="690" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-84" value="http req with app url" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="960" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-85" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="270" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-86" value="" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="387" y="270" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-88" value="" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="397" y="280" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-89" value="" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407" y="290" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-90" value="Sensor configuration files hold types" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417" y="300" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-91" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-15" target="Tp6r7313xP_De6biVUdd-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="430" as="sourcePoint" />
+            <mxPoint x="610" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="153" />
+              <mxPoint x="300" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-92" value="&lt;div&gt;Admin from client side&lt;/div&gt;&lt;div&gt;or from our dev &lt;br&gt;&lt;/div&gt;&lt;div&gt;team takes care of &lt;br&gt;&lt;/div&gt;&lt;div&gt;registering devices &lt;br&gt;&lt;/div&gt;&lt;div&gt;from customer side&lt;/div&gt;&lt;div&gt;and deploys to nodes&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="330" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-93" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-92" target="Tp6r7313xP_De6biVUdd-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="440" as="sourcePoint" />
+            <mxPoint x="610" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="330" />
+              <mxPoint x="510" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-94" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-9" target="Tp6r7313xP_De6biVUdd-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="295" y="350" as="sourcePoint" />
+            <mxPoint x="610" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="245" y="250" />
+              <mxPoint x="425" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tp6r7313xP_De6biVUdd-95" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=55;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tp6r7313xP_De6biVUdd-9" target="Tp6r7313xP_De6biVUdd-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="440" as="sourcePoint" />
+            <mxPoint x="610" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="245" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
